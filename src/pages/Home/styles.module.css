@@ -1,0 +1,44 @@
+.HomePage {
+  background-color: white;
+  border-radius: 10px;
+  padding: 20px;
+  width: 100%;
+  max-width: 600px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+.Header {
+  margin-bottom: 20px;
+}
+
+.AddNew .TextField {
+  margin-bottom: 10px;
+}
+
+.List {
+  padding-top: 20px;
+  overflow: scroll;
+  max-height: 400px;
+}
+
+.TextField {
+  position: relative;
+}
+
+.MaxIndicator {
+  position: absolute;
+  bottom: 20px;
+  right: 10px;
+}
+
+.FilterBar {
+  padding: 10px 0;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.StatusBar {
+  padding-top: 10px;
+}

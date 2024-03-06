@@ -1,0 +1,25 @@
+.ToDo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 14px 20px;
+  margin-bottom: 10px;
+
+  background-color: rgba(241, 241, 241, 0.583);
+  box-shadow:
+    rgb(204, 219, 232) 3px 3px 6px 0px inset,
+    rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+}
+
+.Title {
+  cursor: pointer;
+  text-wrap: wrap;
+  max-width: 300px;
+  word-break: break-all;
+  text-transform: capitalize;
+}
+
+.Done .Title {
+  text-decoration: line-through;
+}
